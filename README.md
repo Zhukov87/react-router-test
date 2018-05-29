@@ -1,4 +1,5 @@
-How to install & start project
-git clone https://github.com/Zhukov87/react-router-test
-yarn
-yarn start
+### How to install & start project
+
+1. git clone https://github.com/Zhukov87/tasks-manager.git
+2. yarn
+3. yarn start

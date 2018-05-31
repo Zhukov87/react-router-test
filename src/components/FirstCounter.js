@@ -3,6 +3,7 @@ import { increment } from '../actionCreators/actionCreators';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
 
+
 class FirstCounter extends Component {
     render() {
         return(
@@ -15,6 +16,7 @@ class FirstCounter extends Component {
 
     handleIncrement = (id) => {
         this.props.increment(id);
+        
     }
 }
 

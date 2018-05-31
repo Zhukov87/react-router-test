@@ -3,6 +3,9 @@ import { Route, Switch } from "react-router-dom";
 import FirstCounter from './FirstCounter';
 import SecondCounter from './SecondCounter';
 import Home from './Home';
+import createHistory from "history/createBrowserHistory";
+
+const history = createHistory();
 
 function Main() {
     return (
